@@ -1,0 +1,242 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ main {
+     width: 100vw;
+     height: 100vh;
+ }
+ 
+ @media screen and (min-width: 902px) and (min-height: 600px) {
+     #principale {
+         width: 100%;
+         height: 100%;
+     }
+     #body-buttons {
+         position: relative;
+         top: -90%;
+         left: 5%;
+         width: 95%;
+         height: 40%;
+     }
+     .titlle1 {
+         position: relative;
+         top: 10%;
+         width: 60%;
+         height: auto;
+     }
+     .tittle2 {
+         position: relative;
+         top: 80%;
+         left: -60%;
+     }
+     .titlle3 {
+         position: relative;
+         top: 25%;
+         left: 5%;
+         width: 60%;
+         height: auto;
+     }
+     #header-buttons {
+         width: 80%;
+         height: 30%;
+         position: relative;
+         top: -100%;
+         left: 20%;
+         display: flex;
+         align-items: center;
+     }
+     .principal-buttons {
+         width: 40%;
+         height: 75%;
+         background-image: url(../images/fondo-buttons.png);
+         background-repeat: no-repeat;
+         background-size: 100%;
+         overflow: visible;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         border-radius: 1em;
+     }
+     #ATS_Home_Pantry {
+         width: 30%;
+         height: 70%;
+     }
+     #ATS_Home_Pantry img {
+         width: 100%;
+         height: 100%;
+     }
+     #ATS_RetailScanning {
+         width: 30%;
+         height: 70%;
+     }
+     #ATS_RetailScanning img {
+         width: 100%;
+         height: 100%;
+     }
+     .individual-buttons {
+         width: 40%;
+         height: 75%;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         border-radius: 1em;
+     }
+     #ATS_RetailServices {
+         width: 39%;
+         height: 95%;
+         background-image: url(../images/ATS_BOTONES-04.png);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: 125%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #ATS_RetailServices img {
+         width: 70%;
+         height: 70%;
+     }
+     #ATS_MoneyMarket {
+         width: 39%;
+         height: 95%;
+         background-image: url(../images/ATS_BOTONES-04.png);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: 125%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #ATS_MoneyMarket img {
+         width: 70%;
+         height: 70%;
+     }
+     #ATS_Panelistas {
+         width: 39%;
+         height: 95%;
+         background-image: url(../images/ATS_BOTONES-04.png);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: 125%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #ATS_Panelistas img {
+         width: 70%;
+         height: 70%;
+     }
+ }
+ /* #background {
+     left: 0px;
+     top: 0px;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     width: 2094px;
+     height: 1081px;
+     overflow: hidden;
+     z-index: 0;
+ }
+ 
+ #VISUAL {
+     left: 0px;
+     top: 0px;
+     position: absolute;
+     width: 2094px;
+     height: 1081px;
+     z-index: 1;
+ }
+ 
+ #IMAGEN08 {
+     left: 2px;
+     top: 0px;
+     position: absolute;
+     width: 2092px;
+     height: 1081px;
+     z-index: 2;
+ }
+ 
+ #Titulo1 {
+     left: 189px;
+     top: 525px;
+     position: absolute;
+     width: 840px;
+     height: 93px;
+     z-index: 3;
+ }
+ 
+ #Titulo2 {
+     left: 90px;
+     top: 911px;
+     position: absolute;
+     width: 194px;
+     height: 23px;
+     z-index: 4;
+ }
+ 
+ #Titulo3 {
+     left: 316px;
+     top: 661px;
+     position: absolute;
+     width: 942px;
+     height: 112px;
+     z-index: 5;
+ }
+ 
+ #ATSBOTONES02 {
+     left: 524px;
+     top: 89px;
+     position: absolute;
+     width: 414px;
+     height: 178px;
+     z-index: 6;
+ }
+ 
+ #ATSBOTONES03 {
+     left: 1404px;
+     top: 91px;
+     position: absolute;
+     width: 176px;
+     height: 173px;
+     z-index: 7;
+ }
+ 
+ #ATSBOTONES04 {
+     left: 1205px;
+     top: 90px;
+     position: absolute;
+     width: 176px;
+     height: 174px;
+     z-index: 8;
+ }
+ 
+ #ATSBOTONES05 {
+     left: 1005px;
+     top: 89px;
+     position: absolute;
+     width: 177px;
+     height: 174px;
+     z-index: 9;
+ }
+ 
+ #ATSBOTONES06 {
+     left: 82px;
+     top: 951px;
+     position: absolute;
+     width: 252px;
+     height: 85px;
+     z-index: 10;
+ }
+ 
+ #ATSBOTONES07 {
+     left: 350px;
+     top: 948px;
+     position: absolute;
+     width: 253px;
+     height: 85px;
+     z-index: 11;
+ } */
