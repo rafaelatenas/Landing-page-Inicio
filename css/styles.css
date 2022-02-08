@@ -65,6 +65,7 @@
          left: 10%;
          width: 35%;
          height: 60%;
+         cursor: pointer;
      }
      #ATS_Home_Pantry img {
          width: 100%;
@@ -76,6 +77,7 @@
          left: 55%;
          width: 35%;
          height: 60%;
+         cursor: pointer;
      }
      #ATS_RetailScanning img {
          width: 100%;
@@ -91,6 +93,7 @@
      #ATS_RetailServices {
          width: 25%;
          height: 100%;
+         cursor: pointer;
      }
      .frist-child {
          width: 100%;
@@ -107,10 +110,12 @@
      #ATS_MoneyMarket {
          width: 25%;
          height: 100%;
+         cursor: pointer;
      }
      #ATS_Panelistas {
          width: 25%;
          height: 100%;
+         cursor: pointer;
      }
      .footer-buttons {
          position: absolute;
@@ -125,6 +130,7 @@
      #ATS_Operaciones_Retail {
          width: 47%;
          height: auto;
+         cursor: pointer;
      }
      #ATS_Operaciones_Retail img {
          width: 100%;
@@ -133,6 +139,7 @@
      #ATS_Operaciones_Home {
          width: 47%;
          height: auto;
+         cursor: pointer;
      }
      #ATS_Operaciones_Home img {
          width: 100%;
