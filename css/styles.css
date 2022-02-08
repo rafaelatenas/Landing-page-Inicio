@@ -42,14 +42,14 @@
          height: auto;
      }
      #header-buttons {
-         width: 70%;
+         width: 60%;
          height: 20%;
          position: relative;
          top: -95%;
-         left: 15%;
+         left: 20%;
          display: flex;
          align-items: center;
-         justify-content: space-around;
+         justify-content: space-between;
      }
      .principal-buttons {
          width: 30%;
@@ -86,7 +86,7 @@
          height: 100%;
          display: flex;
          align-items: center;
-         justify-content: space-between;
+         justify-content: space-evenly;
      }
      #ATS_RetailServices {
          width: 25%;
