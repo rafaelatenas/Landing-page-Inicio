@@ -7,6 +7,7 @@
  main {
      width: 100vw;
      height: 100vh;
+     overflow: hidden;
  }
  
  @media screen and (min-width: 902px) and (min-height: 600px) {
@@ -40,94 +41,101 @@
          height: auto;
      }
      #header-buttons {
-         width: 80%;
-         height: 30%;
+         width: 70%;
+         height: 20%;
          position: relative;
-         top: -100%;
-         left: 20%;
-         display: flex;
-         align-items: center;
-     }
-     .principal-buttons {
-         width: 40%;
-         height: 75%;
-         background-image: url(../images/fondo-buttons.png);
-         background-repeat: no-repeat;
-         background-size: 100%;
-         overflow: visible;
+         top: -95%;
+         left: 15%;
          display: flex;
          align-items: center;
          justify-content: space-around;
-         border-radius: 1em;
+     }
+     .principal-buttons {
+         width: 30%;
+         height: 100%;
+     }
+     .principal-buttons img {
+         width: 100%;
+         height: 90%;
      }
      #ATS_Home_Pantry {
-         width: 30%;
-         height: 70%;
+         position: relative;
+         top: -80%;
+         left: 10%;
+         width: 35%;
+         height: 60%;
      }
      #ATS_Home_Pantry img {
          width: 100%;
          height: 100%;
      }
      #ATS_RetailScanning {
-         width: 30%;
-         height: 70%;
+         position: relative;
+         top: -140%;
+         left: 55%;
+         width: 35%;
+         height: 60%;
      }
      #ATS_RetailScanning img {
          width: 100%;
          height: 100%;
      }
      .individual-buttons {
-         width: 40%;
-         height: 75%;
+         width: 60%;
+         height: 100%;
          display: flex;
          align-items: center;
-         justify-content: space-around;
-         border-radius: 1em;
+         justify-content: space-between;
      }
      #ATS_RetailServices {
-         width: 39%;
-         height: 95%;
-         background-image: url(../images/ATS_BOTONES-04.png);
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: 125%;
-         display: flex;
-         align-items: center;
-         justify-content: center;
+         width: 25%;
+         height: 100%;
      }
-     #ATS_RetailServices img {
-         width: 70%;
-         height: 70%;
+     .frist-child {
+         width: 100%;
+         height: 83%;
+     }
+     .last-child {
+         z-index: 3;
+         width: 65%;
+         height: 67%;
+         position: relative;
+         top: -79%;
+         left: 18%;
      }
      #ATS_MoneyMarket {
-         width: 39%;
-         height: 95%;
-         background-image: url(../images/ATS_BOTONES-04.png);
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: 125%;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-     }
-     #ATS_MoneyMarket img {
-         width: 70%;
-         height: 70%;
+         width: 25%;
+         height: 100%;
      }
      #ATS_Panelistas {
-         width: 39%;
-         height: 95%;
-         background-image: url(../images/ATS_BOTONES-04.png);
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: 125%;
+         width: 25%;
+         height: 100%;
+     }
+     .footer-buttons {
+         position: absolute;
+         top: 85%;
+         left: 5%;
+         width: 40%;
+         height: auto;
          display: flex;
          align-items: center;
-         justify-content: center;
+         justify-content: space-between;
      }
-     #ATS_Panelistas img {
-         width: 70%;
-         height: 70%;
+     #ATS_Operaciones_Retail {
+         width: 47%;
+         height: auto;
+     }
+     #ATS_Operaciones_Retail img {
+         width: 100%;
+         height: auto;
+     }
+     #ATS_Operaciones_Home {
+         width: 47%;
+         height: auto;
+     }
+     #ATS_Operaciones_Home img {
+         width: 100%;
+         height: auto;
      }
  }
  /* #background {
